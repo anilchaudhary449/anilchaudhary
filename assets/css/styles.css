@@ -127,6 +127,7 @@ img{
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+  color: #5cbde7;
 }
 @media screen and (max-width: 768px){
   .nav__menu{
@@ -188,9 +189,11 @@ img{
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
+
 }
 .home__data{
   align-self: center;
+
 }
 .home__title{
   font-size: var(--big-font-size);
@@ -218,6 +221,7 @@ img{
   bottom: 0;
   width: 295px;
   border-radius: 50%;
+
 }
 
 /*BUTTONS*/
@@ -234,6 +238,9 @@ img{
 }
 
 /* ===== ABOUT =====*/
+.about{
+  background-color: azure;
+}
 .about__container{
   row-gap: 2rem;
   text-align: center;
@@ -250,6 +257,9 @@ img{
 }
 
 /* ===== SKILLS =====*/
+.skills{
+  background-color: antiquewhite;
+}
 .skills__container{
   row-gap: 2rem;
   text-align: center;
@@ -323,6 +333,9 @@ img{
 }
 
 /* ===== CONTACT =====*/
+.contact{
+  background-color: blanchedalmond;
+}
 .contact__input{
   width: 100%;
   font-size: var(--normal-font-size);
@@ -364,7 +377,7 @@ img{
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 430px){
   body{
     margin: 0;
   }
@@ -373,7 +386,7 @@ img{
     padding-bottom: 3rem;
   }
   .section-title{
-    margin-bottom: var(--mb-6);
+    margin-bottom: var(--mb-2);
   }
   .section-title::after{
     width: 80px;
@@ -415,7 +428,7 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img img{
-    width: 460px;
+    width: 200px;
     bottom: 50%;
     border-radius: 50%;
   }
